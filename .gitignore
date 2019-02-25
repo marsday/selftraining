@@ -1,6 +1,9 @@
-/msvc/selftraining/
-!/msvc/selftraining/selftraining.sln
-!/msvc/selftraining/selftraining/selftraining.vcxproj
-!/msvc/selftraining/selftraining/*.cpp
-!/msvc/selftraining/selftraining/*.h
+/msvc/selftraining/Debug/
+/msvc/selftraining/Release/
+/msvc/selftraining/ipch/
+/msvc/selftraining/selftraining.sdf
+/msvc/selftraining/selftraining.suo
+/msvc/selftraining/selftraining/Debug
+/msvc/selftraining/selftraining/Release
+
 

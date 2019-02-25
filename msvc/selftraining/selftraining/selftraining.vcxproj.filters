@@ -16,6 +16,9 @@
     <Filter Include="sample">
       <UniqueIdentifier>{d8e51456-69a7-497d-8de6-e582bcca550f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sort">
+      <UniqueIdentifier>{526ec9d1-21d1-4b6f-8594-18e16aa23fb8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -33,6 +36,9 @@
     <ClInclude Include="..\..\..\samples\gtest\sample1.h">
       <Filter>sample</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\sort\sort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -46,6 +52,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\samples\gtest\sample1_unittest.cc">
       <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sort\sort.cc">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sort\sort_unittest.cc">
+      <Filter>sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
