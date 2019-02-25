@@ -1,0 +1,1 @@
+void quick_sort(int src[], int left, int right);

@@ -1,4 +1,6 @@
-/Debug/
-/Release/
-*.sdf
-/ipch/
+/msvc/selftraining/
+!/msvc/selftraining/selftraining.sln
+!/msvc/selftraining/selftraining/selftraining.vcxproj
+!/msvc/selftraining/selftraining/*.cpp
+!/msvc/selftraining/selftraining/*.h
+

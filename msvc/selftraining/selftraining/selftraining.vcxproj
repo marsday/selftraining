@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\samples\gtest\sample1.h" />
+    <ClInclude Include="..\..\..\sort\sort.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -91,6 +92,8 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\samples\gtest\sample1.cc" />
     <ClCompile Include="..\..\..\samples\gtest\sample1_unittest.cc" />
+    <ClCompile Include="..\..\..\sort\sort.cc" />
+    <ClCompile Include="..\..\..\sort\sort_unittest.cc" />
     <ClCompile Include="selftraining.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
