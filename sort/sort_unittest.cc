@@ -17,7 +17,7 @@ template<typename T, size_t size>
         return ::testing::AssertionSuccess();
 }
 
-TEST(SortTest, quicksorttest) {
+TEST(QuickSortTest, basictest) {
 	int a[] = {2,0,5,7,1,10};
 	int sorted[] = {0,1,2,5,7,10};
 
@@ -31,6 +31,24 @@ TEST(SortTest, quicksorttest) {
 	for(int i = 0 ; i < len; i++)
 		cout<<a[i]<<" ";
 	cout<<endl;
+
+	EXPECT_TRUE(ArraysMatch(a, sorted));
+}
+
+TEST(InsertSortTest, basicteset) {
+	int a[] = { -1,0,4,9,12,10 };
+	int sorted[] = { -1,0,4,9,10,12 };
+
+	int len = sizeof(a) / sizeof(int);
+	for (int i = 0; i < len; i++)
+		cout << a[i] << " ";
+	cout << endl;
+
+	insert_sort(a,len);
+
+	for (int i = 0; i < len; i++)
+		cout << a[i] << " ";
+	cout << endl;
 
 	EXPECT_TRUE(ArraysMatch(a, sorted));
 }
