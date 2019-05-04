@@ -7,15 +7,27 @@
     <ClCompile Include="..\..\..\sort\sort_unittest.cc">
       <Filter>sort</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\tree\binary_tree.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tree\tree_unittest.cpp">
+      <Filter>tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\sort\sort.h">
       <Filter>sort</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\tree\binary_tree.h">
+      <Filter>tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="sort">
       <UniqueIdentifier>{42bac86c-d965-47e2-a840-fbbc2eab2cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tree">
+      <UniqueIdentifier>{28904aae-dd46-45dc-9bd7-f88024b71aa3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

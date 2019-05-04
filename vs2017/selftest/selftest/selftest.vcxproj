@@ -34,10 +34,13 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="..\..\..\sort\sort.h" />
+    <ClInclude Include="..\..\..\tree\binary_tree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\sort\sort.cc" />
     <ClCompile Include="..\..\..\sort\sort_unittest.cc" />
+    <ClCompile Include="..\..\..\tree\binary_tree.cc" />
+    <ClCompile Include="..\..\..\tree\tree_unittest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
